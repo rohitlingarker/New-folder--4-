@@ -1,0 +1,48 @@
+#sec3 {
+    height: 70.68vw;
+    width: 100vw;
+    background-color: #fff;
+    position: relative;
+}
+
+#sec3 .img1{
+    width: 41.09vw;
+    height: 61.45vw;
+    position: absolute;
+    top: 6.22vw;
+    right: 4.42vw;
+    z-index: 2;
+
+}
+
+#sec3 .img2{
+    width:22.71vw ;
+    height:33.83vw;
+    top: 9.42vw;
+    left: 8.57vw;
+    position: absolute;
+    z-index: 2;
+}
+#sec3 .text_container{
+    width: 54.47vw;
+    height: 42.13vw;
+    top: 22.14vw;
+    left:0;
+    background-color: #d0d0d0;
+    position: absolute;
+    z-index: 1;
+}
+
+#sec3 .text_container .text{
+    width: 16.25vw;
+    position: absolute;
+    top: 26.06vw;
+    left: 23.37vw;
+    font-size: 1.2vw;
+    text-align: center;
+
+}
+
+#sec3 .text_container .text h5{
+    margin: 10px;
+}

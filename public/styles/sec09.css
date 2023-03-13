@@ -1,0 +1,36 @@
+#sec9 {
+    height: 70.68vw;
+    width: 100vw;
+    background-color: #fff;
+    position: relative;
+    margin-top: 1vw;
+}
+
+#sec9 .img1{
+    position: absolute;
+    width:23.81vw;
+    height:37.63vw;
+    top: 5.54vw;
+    left: 6.25vw;
+    z-index: 2;
+
+}
+
+#sec9 .img2{
+    width:37.33vw ;
+    height:56.20vw;
+    top: 5.54vw;
+    right: 5.24vw;
+    position: absolute;
+    z-index: 2;
+}
+#sec9 .text_container{
+    width: 82.74vw;
+    height: 46.01vw;
+    top: 24.72vw;
+    right:17.15vw;
+    background-color: #d0d0d0;
+    position: absolute;
+    z-index: 1;
+}
+

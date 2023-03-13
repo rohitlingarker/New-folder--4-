@@ -1,0 +1,67 @@
+@import url(//db.onlinewebfonts.com/c/28f458dff973da35954dd389155b9c57?family=ChongModernW01);
+
+
+@import url("sec01.css");
+@import url("sec02.css");
+@import url("sec03.css");
+@import url("sec04.css");
+@import url("sec05.css");
+@import url("sec06.css");
+@import url("sec07.css");
+@import url("sec08.css");
+@import url("sec09.css");
+@import url("sec10.css");
+@import url("sec11.css");
+@import url("sec12.css");
+@import url("sec13.css");
+@font-face {font-family: "ChongModernW01"; src: url("//db.onlinewebfonts.com/t/28f458dff973da35954dd389155b9c57.eot"); src: url("//db.onlinewebfonts.com/t/28f458dff973da35954dd389155b9c57.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/28f458dff973da35954dd389155b9c57.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/28f458dff973da35954dd389155b9c57.woff") format("woff"), url("//db.onlinewebfonts.com/t/28f458dff973da35954dd389155b9c57.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/28f458dff973da35954dd389155b9c57.svg#ChongModernW01") format("svg"); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ChongModernW01";
+}
+
+body{
+    overflow-x: hidden;
+    perspective: 800px;
+    perspective-origin: center center;}
+
+.text{
+    text-align: center;
+}
+
+body :nth-child(2n){
+    --d:-100%;
+}
+
+body :nth-child(2n+1){
+    --d:100%
+}
+
+.hidden *{
+    opacity: 0;
+    transition: 1s;
+    transform: translatex(var(--d));
+    filter: blur(50px);
+}
+
+
+.hidden:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.hidden:nth-child(3){
+    transition-delay: 600ms;
+}
+
+.hidden:nth-child(4){
+    transition-delay: 1000ms;
+}
+
+.show *{
+    opacity: 1;
+    transform: translatex(0);
+    filter: blur(0px);
+}

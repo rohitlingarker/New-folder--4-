@@ -1,0 +1,36 @@
+#sec1 {
+    background-color: #d0d0d0;
+    width: 100vw;
+    min-height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sec1 img{
+    width: 30vw;
+    margin-bottom: 20vw;
+}
+
+#sec1 .line{
+    width: 40vw;
+    height: 0.10vw;
+    background-color: #000;
+    transform: translate(13%);
+    margin: 8vw;
+}
+
+#sec1 .vert_text{
+    align-self: flex-end;
+    transform-origin: top right;
+    transform: rotate(90deg);
+    margin:3vw;
+    font-size: 1vw;
+}
+
+#sec1 .text1{
+    align-self: flex-start;
+    font-size: 1vw;
+    margin: 3vw;
+}

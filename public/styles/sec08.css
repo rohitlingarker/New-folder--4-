@@ -1,0 +1,56 @@
+#sec8 {
+    height: 70.68vw;
+    width: 100vw;
+    background-color: #fff;
+    position: relative;
+    margin-top: 1vw;
+}
+
+#sec8 .img1{
+    position: absolute;
+    width: 19.58vw;
+    height: 27.69vw;
+    top: 18.39vw;
+    left: 0;
+    z-index: 2;
+}
+
+#sec8 .img2{
+    width: 22.25vw ;
+    height:31.15vw;
+    top: 34.91vw;
+    left: 21.36vw;
+    position: absolute;
+    z-index: 2;
+}
+#sec8 .img3{
+    width: 36.03vw ;
+    height:51.23vw;
+    top: 11.47vw;
+    right: 6.62vw;
+    position: absolute;
+    z-index: 2;
+}
+#sec8 .text_container{
+    width: 56.97vw;
+    height: 42.03vw;
+    top: 12.56vw;
+    left: 0vw;
+    background-color: #d0d0d0;
+    position: absolute;
+    z-index: 1;
+}
+
+#sec8 .text_container .text{
+    width: 13.35vw;
+    position: absolute;
+    text-align: center;
+    top: 9.59vw;
+    left: 21.56vw;
+    font-size: 1.18vw;
+
+}
+
+#sec8 .text_container .text h5{
+    margin-bottom: 10px;
+}

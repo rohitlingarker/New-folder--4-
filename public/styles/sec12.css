@@ -1,0 +1,27 @@
+#sec12 {
+    height: 70.68vw;
+    width: 100vw;
+    background-color: #fff;
+    position: relative;
+    margin-top: 1vw;
+}
+
+#sec12 .img1{
+    position: absolute;
+    width:44.50vw;
+    height:63.77vw;
+    top: 4.13vw;
+    left: 5.54vw;
+    z-index: 2;
+
+}
+
+#sec12 .text_container{
+    width: 80.22vw;
+    height: 50.65vw;
+    top:0vw;
+    right:0vw;
+    background-color: #d0d0d0;
+    position: absolute;
+    z-index: 1;
+}

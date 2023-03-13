@@ -1,0 +1,33 @@
+#sec4{
+    height: 70.68vw;
+    width: 100vw;
+    background-color: #fff;
+    position: relative;
+}
+
+#sec4 .img1{
+    position: absolute;
+    width: 41.32vw;
+    height: 61.61vw;
+    top: 5.40vw;
+    left: 4.36vw;
+    z-index: 6;
+}
+#sec4 .img2{
+    position: absolute;
+    width: 22.55vw;
+    height: 34.123vw;
+    top: 12.60vw;
+    right: 0;
+    z-index: 3;
+}
+
+#sec4 .text_container{
+    width: 60.2vw;
+    height: 61.15vw;
+    position: absolute;
+    top: 9.58vw;
+    left: 35.21vw;
+    z-index: 1;
+    background-color: #d0d0d0;
+}

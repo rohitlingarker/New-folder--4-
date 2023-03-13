@@ -1,0 +1,35 @@
+#sec11 {
+    height: 70.68vw;
+    width: 100vw;
+    background-color: #fff;
+    position: relative;
+    margin-top: 1vw;
+}
+
+#sec11 .img1{
+    position: absolute;
+    width:35.72vw;
+    height:46.82vw;
+    top: 0;
+    left: 0vw;
+    z-index: 2;
+
+}
+
+#sec11 .img2{
+    width: 38.04vw ;
+    height:56.81vw;
+    top: 6.96vw;
+    right: 6.05vw;
+    position: absolute;
+    z-index: 2;
+}
+#sec11 .text_container{
+    width: 60.24vw;
+    height: 60.44vw;
+    top: 10.29vw;
+    right:5.44vw;
+    background-color: #d0d0d0;
+    position: absolute;
+    z-index: 1;
+}

@@ -1,0 +1,49 @@
+#sec5 {
+    height: 70.68vw;
+    width: 100vw;
+    background-color: #fff;
+    position: relative;
+    margin-top: 1vw;
+}
+
+#sec5 .img1{
+    width: 20.67vw;
+    height: 27.49vw;
+    position: absolute;
+    top: 0;
+    left: 13.45vw;
+    z-index: 2;
+
+}
+
+#sec5 .img2{
+    width: 40.15vw ;
+    height:58.75vw;
+    top: 6.82vw;
+    right: 5.14vw;
+    position: absolute;
+    z-index: 2;
+}
+#sec5 .text_container{
+    width: 37.38vw;
+    height: 57.36vw;
+    top: 13.45vw;
+    left:0;
+    background-color: #d0d0d0;
+    position: absolute;
+    z-index: 1;
+}
+
+#sec5 .text_container .text{
+    width: 14.24vw;
+    position: absolute;
+    text-align: center;
+    top: 23.83vw;
+    left: 16.81vw;
+    font-size: 1.18vw;
+
+}
+
+#sec5 .text_container .text h5{
+    margin-bottom: 10px;
+}

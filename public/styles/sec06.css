@@ -1,0 +1,49 @@
+#sec6 {
+    height: 70.68vw;
+    width: 100vw;
+    background-color: #fff;
+    position: relative;
+    margin-top: 1vw;
+}
+
+#sec6 .img1{
+    position: absolute;
+    width:39.69vw;
+    height:59.64vw;
+    top: 4.94vw;
+    left: 5.83vw;
+    z-index: 2;
+
+}
+
+#sec6 .img2{
+    width: 23.44vw ;
+    height:33.33vw;
+    top: 7.81vw;
+    right: 2.96vw;
+    position: absolute;
+    z-index: 2;
+}
+#sec6 .text_container{
+    width: 40.85vw;
+    height: 47.97vw;
+    top: 14.73vw;
+    right:13.84vw;
+    background-color: #d0d0d0;
+    position: absolute;
+    z-index: 1;
+}
+
+#sec6 .text_container .text{
+    width:13.05vw;
+    position: absolute;
+    text-align: center;
+    top: 29.37vw;
+    left: 11.07vw;
+    font-size: 1.18vw;
+
+}
+
+#sec6 .text_container .text h5{
+    margin-bottom: 10px;
+}
